@@ -1,7 +1,7 @@
 const express = require("express");
 const mysql = require('mysql');
 const cors = require('cors');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const dbConfig = require('./dbConfig'); // Import the database configuration
 
 const app = express();
